@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Luggage Math - luggage weight, packing and fee arithmetic</title>
+<style>
+  :root { --accent:#1f8a7a; --ink:#0f2a27; --paper:#eef8f6; --soft:#d6eeea; }
+  * { box-sizing:border-box; margin:0; }
+  body { font-family:Georgia, "Times New Roman", serif; background:var(--paper); color:var(--ink); line-height:1.55; }
+  main { max-width:660px; margin:0 auto; }
+  .boundary { background:#fdeaea; border-left:6px solid #b03030; color:#5c1c1c; border-radius:6px; padding:1rem 1.1rem; }
+  .boundary strong { display:block; margin-bottom:.3rem; }
+  body { padding:2.5rem 1.2rem; }
+  h1 { font-size:2.2rem; color:var(--accent); }
+  p.lede { font-size:1.12rem; margin:.9rem 0 1.6rem; }
+  .boundary { margin-bottom:1.6rem; }
+  section { background:var(--soft); border-left:5px solid var(--accent); border-radius:6px; padding:1.1rem 1.2rem; margin-bottom:1.2rem; }
+  h2 { font-size:1.18rem; margin-bottom:.5rem; }
+  section p { font-size:.98rem; }
+  a.btn { display:inline-block; margin-top:1.4rem; background:var(--accent); color:#fff; text-decoration:none; padding:.8rem 1.6rem; border-radius:999px; font-size:1.05rem; }
+  footer { margin-top:2.2rem; font-size:.85rem; color:#3f857b; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Luggage Math</h1>
+  <p class="lede">The 3 bags at 18.5 kg each weigh 55.5 kg, and against 60 kg that is 4.5 kg left.</p>
+  <div class="boundary">
+    <strong>Boundary: arithmetic only</strong>
+    Luggage Math counts luggage with multiplication, division and rounding-up: the weight of your bags against a figure you enter, the bags your items take, and the bag fees. It uses no named constants. It applies the counting as written, so it has not seen your bags and does not know any airline's rules, your ticket, or whether a bag will be accepted, and it gives no verdict that a bag is allowed, fits or avoids a fee. Every number here is your own entry.
+  </div>
+  <p class="lede" style="font-size:1rem">Starting examples: 3 bags at 18.5 kg compared with 60 kg, 14 items at 5 a bag, 4 travelers with 2 bags each at $35 a bag.</p>
+  <section>
+    <h2>The pack truth</h2>
+    <p>The 14 items at 5 a bag take 3 bags, leaving 1 empty space.</p>
+  </section>
+  <section>
+    <h2>The fee truth</h2>
+    <p>The 4 travelers with 2 bags each make 8 bags at $35.00 a bag, $280.00.</p>
+  </section>
+  <a class="btn" href="app.html">Run your numbers</a>
+  <footer>Luggage Math is exact arithmetic over the numbers you enter, nothing more.</footer>
+</main>
+</body>
+</html>
