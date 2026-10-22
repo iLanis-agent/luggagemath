@@ -1,0 +1,849 @@
+{
+ "cases": [
+  {
+   "fn": "weight",
+   "args": [
+    "3",
+    "18.5",
+    "60"
+   ],
+   "expect": "The 3 bags at 18.5 kg each weigh 55.5 kg, and against 60 kg that is 4.5 kg left."
+  },
+  {
+   "fn": "pack",
+   "args": [
+    "14",
+    "5"
+   ],
+   "expect": "The 14 items at 5 a bag take 3 bags, leaving 1 empty space."
+  },
+  {
+   "fn": "fee",
+   "args": [
+    "4",
+    "2",
+    "35"
+   ],
+   "expect": "The 4 travelers with 2 bags each make 8 bags at $35.00 a bag, $280.00."
+  },
+  {
+   "fn": "weight",
+   "args": [
+    "3",
+    "20",
+    "60"
+   ],
+   "expect": "The 3 bags at 20 kg each weigh 60 kg, and against 60 kg that is the same."
+  },
+  {
+   "fn": "weight",
+   "args": [
+    "2",
+    "30",
+    "50"
+   ],
+   "expect": "The 2 bags at 30 kg each weigh 60 kg, and against 50 kg that is 10 kg more."
+  },
+  {
+   "fn": "pack",
+   "args": [
+    "1",
+    "1"
+   ],
+   "expect": "The 1 item at 1 a bag take 1 bag, leaving 0 empty spaces."
+  },
+  {
+   "fn": "fee",
+   "args": [
+    "1",
+    "1",
+    "0.01"
+   ],
+   "expect": "The 1 traveler with 1 bag each make 1 bag at $0.01 a bag, $0.01."
+  },
+  {
+   "fn": "weight",
+   "args": [
+    "12",
+    "430.2",
+    "748.1"
+   ],
+   "expect": "The 12 bags at 430.2 kg each weigh 5162.4 kg, and against 748.1 kg that is 4414.3 kg more."
+  },
+  {
+   "fn": "weight",
+   "args": [
+    "38",
+    "368.9",
+    "816.7"
+   ],
+   "expect": "The 38 bags at 368.9 kg each weigh 14018.2 kg, and against 816.7 kg that is 13201.5 kg more."
+  },
+  {
+   "fn": "weight",
+   "args": [
+    "19",
+    "920.6",
+    "4.2"
+   ],
+   "expect": "The 19 bags at 920.6 kg each weigh 17491.4 kg, and against 4.2 kg that is 17487.2 kg more."
+  },
+  {
+   "fn": "weight",
+   "args": [
+    "95",
+    "313.2",
+    "76.7"
+   ],
+   "expect": "The 95 bags at 313.2 kg each weigh 29754 kg, and against 76.7 kg that is 29677.3 kg more."
+  },
+  {
+   "fn": "weight",
+   "args": [
+    "37",
+    "193.5",
+    "339.8"
+   ],
+   "expect": "The 37 bags at 193.5 kg each weigh 7159.5 kg, and against 339.8 kg that is 6819.7 kg more."
+  },
+  {
+   "fn": "weight",
+   "args": [
+    "87",
+    "452.6",
+    "54"
+   ],
+   "expect": "The 87 bags at 452.6 kg each weigh 39376.2 kg, and against 54 kg that is 39322.2 kg more."
+  },
+  {
+   "fn": "weight",
+   "args": [
+    "47",
+    "967.4",
+    "855.6"
+   ],
+   "expect": "The 47 bags at 967.4 kg each weigh 45467.8 kg, and against 855.6 kg that is 44612.2 kg more."
+  },
+  {
+   "fn": "weight",
+   "args": [
+    "39",
+    "822.4",
+    "324.1"
+   ],
+   "expect": "The 39 bags at 822.4 kg each weigh 32073.6 kg, and against 324.1 kg that is 31749.5 kg more."
+  },
+  {
+   "fn": "weight",
+   "args": [
+    "66",
+    "295",
+    "127.8"
+   ],
+   "expect": "The 66 bags at 295 kg each weigh 19470 kg, and against 127.8 kg that is 19342.2 kg more."
+  },
+  {
+   "fn": "weight",
+   "args": [
+    "87",
+    "963",
+    "128.1"
+   ],
+   "expect": "The 87 bags at 963 kg each weigh 83781 kg, and against 128.1 kg that is 83652.9 kg more."
+  },
+  {
+   "fn": "weight",
+   "args": [
+    "2",
+    "287.2",
+    "337"
+   ],
+   "expect": "The 2 bags at 287.2 kg each weigh 574.4 kg, and against 337 kg that is 237.4 kg more."
+  },
+  {
+   "fn": "weight",
+   "args": [
+    "45",
+    "274.1",
+    "448.5"
+   ],
+   "expect": "The 45 bags at 274.1 kg each weigh 12334.5 kg, and against 448.5 kg that is 11886 kg more."
+  },
+  {
+   "fn": "weight",
+   "args": [
+    "54",
+    "398.1",
+    "216.5"
+   ],
+   "expect": "The 54 bags at 398.1 kg each weigh 21497.4 kg, and against 216.5 kg that is 21280.9 kg more."
+  },
+  {
+   "fn": "weight",
+   "args": [
+    "96",
+    "472.2",
+    "561.6"
+   ],
+   "expect": "The 96 bags at 472.2 kg each weigh 45331.2 kg, and against 561.6 kg that is 44769.6 kg more."
+  },
+  {
+   "fn": "weight",
+   "args": [
+    "79",
+    "512.9",
+    "406.9"
+   ],
+   "expect": "The 79 bags at 512.9 kg each weigh 40519.1 kg, and against 406.9 kg that is 40112.2 kg more."
+  },
+  {
+   "fn": "weight",
+   "args": [
+    "58",
+    "740.9",
+    "188.9"
+   ],
+   "expect": "The 58 bags at 740.9 kg each weigh 42972.2 kg, and against 188.9 kg that is 42783.3 kg more."
+  },
+  {
+   "fn": "weight",
+   "args": [
+    "17",
+    "235.4",
+    "39.7"
+   ],
+   "expect": "The 17 bags at 235.4 kg each weigh 4001.8 kg, and against 39.7 kg that is 3962.1 kg more."
+  },
+  {
+   "fn": "weight",
+   "args": [
+    "26",
+    "1.3",
+    "618"
+   ],
+   "expect": "The 26 bags at 1.3 kg each weigh 33.8 kg, and against 618 kg that is 584.2 kg left."
+  },
+  {
+   "fn": "weight",
+   "args": [
+    "85",
+    "601.3",
+    "56.8"
+   ],
+   "expect": "The 85 bags at 601.3 kg each weigh 51110.5 kg, and against 56.8 kg that is 51053.7 kg more."
+  },
+  {
+   "fn": "weight",
+   "args": [
+    "92",
+    "374.3",
+    "398.6"
+   ],
+   "expect": "The 92 bags at 374.3 kg each weigh 34435.6 kg, and against 398.6 kg that is 34037 kg more."
+  },
+  {
+   "fn": "weight",
+   "args": [
+    "7",
+    "974.1",
+    "261.8"
+   ],
+   "expect": "The 7 bags at 974.1 kg each weigh 6818.7 kg, and against 261.8 kg that is 6556.9 kg more."
+  },
+  {
+   "fn": "weight",
+   "args": [
+    "7",
+    "449.2",
+    "593.7"
+   ],
+   "expect": "The 7 bags at 449.2 kg each weigh 3144.4 kg, and against 593.7 kg that is 2550.7 kg more."
+  },
+  {
+   "fn": "weight",
+   "args": [
+    "81",
+    "618.4",
+    "883.1"
+   ],
+   "expect": "The 81 bags at 618.4 kg each weigh 50090.4 kg, and against 883.1 kg that is 49207.3 kg more."
+  },
+  {
+   "fn": "weight",
+   "args": [
+    "23",
+    "439.2",
+    "252.2"
+   ],
+   "expect": "The 23 bags at 439.2 kg each weigh 10101.6 kg, and against 252.2 kg that is 9849.4 kg more."
+  },
+  {
+   "fn": "weight",
+   "args": [
+    "83",
+    "566.6",
+    "632.3"
+   ],
+   "expect": "The 83 bags at 566.6 kg each weigh 47027.8 kg, and against 632.3 kg that is 46395.5 kg more."
+  },
+  {
+   "fn": "pack",
+   "args": [
+    "42545",
+    "829"
+   ],
+   "expect": "The 42545 items at 829 a bag take 52 bags, leaving 563 empty spaces."
+  },
+  {
+   "fn": "pack",
+   "args": [
+    "38769",
+    "465"
+   ],
+   "expect": "The 38769 items at 465 a bag take 84 bags, leaving 291 empty spaces."
+  },
+  {
+   "fn": "pack",
+   "args": [
+    "18657",
+    "220"
+   ],
+   "expect": "The 18657 items at 220 a bag take 85 bags, leaving 43 empty spaces."
+  },
+  {
+   "fn": "pack",
+   "args": [
+    "38353",
+    "994"
+   ],
+   "expect": "The 38353 items at 994 a bag take 39 bags, leaving 413 empty spaces."
+  },
+  {
+   "fn": "pack",
+   "args": [
+    "2132",
+    "69"
+   ],
+   "expect": "The 2132 items at 69 a bag take 31 bags, leaving 7 empty spaces."
+  },
+  {
+   "fn": "pack",
+   "args": [
+    "13278",
+    "477"
+   ],
+   "expect": "The 13278 items at 477 a bag take 28 bags, leaving 78 empty spaces."
+  },
+  {
+   "fn": "pack",
+   "args": [
+    "6917",
+    "138"
+   ],
+   "expect": "The 6917 items at 138 a bag take 51 bags, leaving 121 empty spaces."
+  },
+  {
+   "fn": "pack",
+   "args": [
+    "83958",
+    "268"
+   ],
+   "expect": "The 83958 items at 268 a bag take 314 bags, leaving 194 empty spaces."
+  },
+  {
+   "fn": "pack",
+   "args": [
+    "78868",
+    "539"
+   ],
+   "expect": "The 78868 items at 539 a bag take 147 bags, leaving 365 empty spaces."
+  },
+  {
+   "fn": "pack",
+   "args": [
+    "97594",
+    "27"
+   ],
+   "expect": "The 97594 items at 27 a bag take 3615 bags, leaving 11 empty spaces."
+  },
+  {
+   "fn": "pack",
+   "args": [
+    "48466",
+    "315"
+   ],
+   "expect": "The 48466 items at 315 a bag take 154 bags, leaving 44 empty spaces."
+  },
+  {
+   "fn": "pack",
+   "args": [
+    "45510",
+    "27"
+   ],
+   "expect": "The 45510 items at 27 a bag take 1686 bags, leaving 12 empty spaces."
+  },
+  {
+   "fn": "pack",
+   "args": [
+    "38464",
+    "115"
+   ],
+   "expect": "The 38464 items at 115 a bag take 335 bags, leaving 61 empty spaces."
+  },
+  {
+   "fn": "pack",
+   "args": [
+    "79871",
+    "536"
+   ],
+   "expect": "The 79871 items at 536 a bag take 150 bags, leaving 529 empty spaces."
+  },
+  {
+   "fn": "pack",
+   "args": [
+    "93046",
+    "697"
+   ],
+   "expect": "The 93046 items at 697 a bag take 134 bags, leaving 352 empty spaces."
+  },
+  {
+   "fn": "pack",
+   "args": [
+    "5492",
+    "43"
+   ],
+   "expect": "The 5492 items at 43 a bag take 128 bags, leaving 12 empty spaces."
+  },
+  {
+   "fn": "pack",
+   "args": [
+    "15987",
+    "969"
+   ],
+   "expect": "The 15987 items at 969 a bag take 17 bags, leaving 486 empty spaces."
+  },
+  {
+   "fn": "pack",
+   "args": [
+    "54819",
+    "110"
+   ],
+   "expect": "The 54819 items at 110 a bag take 499 bags, leaving 71 empty spaces."
+  },
+  {
+   "fn": "pack",
+   "args": [
+    "23465",
+    "679"
+   ],
+   "expect": "The 23465 items at 679 a bag take 35 bags, leaving 300 empty spaces."
+  },
+  {
+   "fn": "pack",
+   "args": [
+    "18695",
+    "253"
+   ],
+   "expect": "The 18695 items at 253 a bag take 74 bags, leaving 27 empty spaces."
+  },
+  {
+   "fn": "pack",
+   "args": [
+    "34133",
+    "752"
+   ],
+   "expect": "The 34133 items at 752 a bag take 46 bags, leaving 459 empty spaces."
+  },
+  {
+   "fn": "pack",
+   "args": [
+    "34842",
+    "355"
+   ],
+   "expect": "The 34842 items at 355 a bag take 99 bags, leaving 303 empty spaces."
+  },
+  {
+   "fn": "pack",
+   "args": [
+    "84768",
+    "587"
+   ],
+   "expect": "The 84768 items at 587 a bag take 145 bags, leaving 347 empty spaces."
+  },
+  {
+   "fn": "pack",
+   "args": [
+    "6423",
+    "174"
+   ],
+   "expect": "The 6423 items at 174 a bag take 37 bags, leaving 15 empty spaces."
+  },
+  {
+   "fn": "pack",
+   "args": [
+    "95468",
+    "515"
+   ],
+   "expect": "The 95468 items at 515 a bag take 186 bags, leaving 322 empty spaces."
+  },
+  {
+   "fn": "fee",
+   "args": [
+    "6",
+    "17",
+    "6038.54"
+   ],
+   "expect": "The 6 travelers with 17 bags each make 102 bags at $6038.54 a bag, $615931.08."
+  },
+  {
+   "fn": "fee",
+   "args": [
+    "422",
+    "2",
+    "3676.86"
+   ],
+   "expect": "The 422 travelers with 2 bags each make 844 bags at $3676.86 a bag, $3103269.84."
+  },
+  {
+   "fn": "fee",
+   "args": [
+    "11",
+    "20",
+    "3584.87"
+   ],
+   "expect": "The 11 travelers with 20 bags each make 220 bags at $3584.87 a bag, $788671.40."
+  },
+  {
+   "fn": "fee",
+   "args": [
+    "553",
+    "6",
+    "2626.54"
+   ],
+   "expect": "The 553 travelers with 6 bags each make 3318 bags at $2626.54 a bag, $8714859.72."
+  },
+  {
+   "fn": "fee",
+   "args": [
+    "508",
+    "5",
+    "1303.08"
+   ],
+   "expect": "The 508 travelers with 5 bags each make 2540 bags at $1303.08 a bag, $3309823.20."
+  },
+  {
+   "fn": "fee",
+   "args": [
+    "274",
+    "7",
+    "1973.88"
+   ],
+   "expect": "The 274 travelers with 7 bags each make 1918 bags at $1973.88 a bag, $3785901.84."
+  },
+  {
+   "fn": "fee",
+   "args": [
+    "796",
+    "4",
+    "1972.24"
+   ],
+   "expect": "The 796 travelers with 4 bags each make 3184 bags at $1972.24 a bag, $6279612.16."
+  },
+  {
+   "fn": "fee",
+   "args": [
+    "425",
+    "3",
+    "4980.02"
+   ],
+   "expect": "The 425 travelers with 3 bags each make 1275 bags at $4980.02 a bag, $6349525.50."
+  },
+  {
+   "fn": "fee",
+   "args": [
+    "883",
+    "15",
+    "1490.39"
+   ],
+   "expect": "The 883 travelers with 15 bags each make 13245 bags at $1490.39 a bag, $19740215.55."
+  },
+  {
+   "fn": "fee",
+   "args": [
+    "438",
+    "14",
+    "8223.65"
+   ],
+   "expect": "The 438 travelers with 14 bags each make 6132 bags at $8223.65 a bag, $50427421.80."
+  },
+  {
+   "fn": "fee",
+   "args": [
+    "963",
+    "4",
+    "4228.6"
+   ],
+   "expect": "The 963 travelers with 4 bags each make 3852 bags at $4228.60 a bag, $16288567.20."
+  },
+  {
+   "fn": "fee",
+   "args": [
+    "765",
+    "3",
+    "2442.74"
+   ],
+   "expect": "The 765 travelers with 3 bags each make 2295 bags at $2442.74 a bag, $5606088.30."
+  },
+  {
+   "fn": "fee",
+   "args": [
+    "403",
+    "15",
+    "3776.26"
+   ],
+   "expect": "The 403 travelers with 15 bags each make 6045 bags at $3776.26 a bag, $22827491.70."
+  },
+  {
+   "fn": "fee",
+   "args": [
+    "778",
+    "4",
+    "1040.27"
+   ],
+   "expect": "The 778 travelers with 4 bags each make 3112 bags at $1040.27 a bag, $3237320.24."
+  },
+  {
+   "fn": "fee",
+   "args": [
+    "574",
+    "1",
+    "414.94"
+   ],
+   "expect": "The 574 travelers with 1 bag each make 574 bags at $414.94 a bag, $238175.56."
+  },
+  {
+   "fn": "fee",
+   "args": [
+    "643",
+    "9",
+    "9376.4"
+   ],
+   "expect": "The 643 travelers with 9 bags each make 5787 bags at $9376.40 a bag, $54261226.80."
+  },
+  {
+   "fn": "fee",
+   "args": [
+    "88",
+    "5",
+    "6454.11"
+   ],
+   "expect": "The 88 travelers with 5 bags each make 440 bags at $6454.11 a bag, $2839808.40."
+  },
+  {
+   "fn": "fee",
+   "args": [
+    "747",
+    "13",
+    "9051.62"
+   ],
+   "expect": "The 747 travelers with 13 bags each make 9711 bags at $9051.62 a bag, $87900281.82."
+  },
+  {
+   "fn": "fee",
+   "args": [
+    "583",
+    "12",
+    "1776.25"
+   ],
+   "expect": "The 583 travelers with 12 bags each make 6996 bags at $1776.25 a bag, $12426645.00."
+  },
+  {
+   "fn": "fee",
+   "args": [
+    "890",
+    "3",
+    "8916.45"
+   ],
+   "expect": "The 890 travelers with 3 bags each make 2670 bags at $8916.45 a bag, $23806921.50."
+  },
+  {
+   "fn": "fee",
+   "args": [
+    "869",
+    "18",
+    "212.18"
+   ],
+   "expect": "The 869 travelers with 18 bags each make 15642 bags at $212.18 a bag, $3318919.56."
+  },
+  {
+   "fn": "fee",
+   "args": [
+    "127",
+    "17",
+    "5601.09"
+   ],
+   "expect": "The 127 travelers with 17 bags each make 2159 bags at $5601.09 a bag, $12092753.31."
+  },
+  {
+   "fn": "fee",
+   "args": [
+    "129",
+    "15",
+    "5044.92"
+   ],
+   "expect": "The 129 travelers with 15 bags each make 1935 bags at $5044.92 a bag, $9761920.20."
+  },
+  {
+   "fn": "fee",
+   "args": [
+    "83",
+    "19",
+    "229.26"
+   ],
+   "expect": "The 83 travelers with 19 bags each make 1577 bags at $229.26 a bag, $361543.02."
+  },
+  {
+   "fn": "fee",
+   "args": [
+    "917",
+    "6",
+    "4628.82"
+   ],
+   "expect": "The 917 travelers with 6 bags each make 5502 bags at $4628.82 a bag, $25467767.64."
+  }
+ ],
+ "errors": [
+  [
+   "weight",
+   [
+    "0",
+    "18.5",
+    "60"
+   ]
+  ],
+  [
+   "weight",
+   [
+    "101",
+    "18.5",
+    "60"
+   ]
+  ],
+  [
+   "weight",
+   [
+    "3",
+    "0",
+    "60"
+   ]
+  ],
+  [
+   "weight",
+   [
+    "3",
+    "18.55",
+    "60"
+   ]
+  ],
+  [
+   "weight",
+   [
+    "3",
+    "18.5",
+    "0"
+   ]
+  ],
+  [
+   "weight",
+   [
+    "3",
+    "18.5",
+    "1000.1"
+   ]
+  ],
+  [
+   "pack",
+   [
+    "0",
+    "5"
+   ]
+  ],
+  [
+   "pack",
+   [
+    "100001",
+    "5"
+   ]
+  ],
+  [
+   "pack",
+   [
+    "14",
+    "0"
+   ]
+  ],
+  [
+   "pack",
+   [
+    "14",
+    "1001"
+   ]
+  ],
+  [
+   "fee",
+   [
+    "0",
+    "2",
+    "35"
+   ]
+  ],
+  [
+   "fee",
+   [
+    "1001",
+    "2",
+    "35"
+   ]
+  ],
+  [
+   "fee",
+   [
+    "4",
+    "0",
+    "35"
+   ]
+  ],
+  [
+   "fee",
+   [
+    "4",
+    "21",
+    "35"
+   ]
+  ],
+  [
+   "fee",
+   [
+    "4",
+    "2",
+    "0"
+   ]
+  ],
+  [
+   "fee",
+   [
+    "4",
+    "2",
+    "10000.01"
+   ]
+  ],
+  [
+   "fee",
+   [
+    "4",
+    "2",
+    "35.005"
+   ]
+  ]
+ ]
+}
